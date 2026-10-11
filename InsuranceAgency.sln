@@ -67,6 +67,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "authService.Api", "authServ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "authService.Test", "authService.Test\authService.Test.csproj", "{002655F3-689E-4B1C-9C88-7C5F5AD41651}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmClient", "BlazorWasmClient\BlazorWasmClient.csproj", "{C51EC6C2-3098-4199-B117-DB89AA07EBC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgentPortalApiGateway", "AgentPortalApiGateway\AgentPortalApiGateway.csproj", "{15E5AB02-2F1A-4724-A4FB-C28438B01F04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -365,6 +369,30 @@ Global
 		{002655F3-689E-4B1C-9C88-7C5F5AD41651}.Release|x64.Build.0 = Release|Any CPU
 		{002655F3-689E-4B1C-9C88-7C5F5AD41651}.Release|x86.ActiveCfg = Release|Any CPU
 		{002655F3-689E-4B1C-9C88-7C5F5AD41651}.Release|x86.Build.0 = Release|Any CPU
+		{C51EC6C2-3098-4199-B117-DB89AA07EBC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C51EC6C2-3098-4199-B117-DB89AA07EBC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C51EC6C2-3098-4199-B117-DB89AA07EBC9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C51EC6C2-3098-4199-B117-DB89AA07EBC9}.Debug|x64.Build.0 = Debug|Any CPU
+		{C51EC6C2-3098-4199-B117-DB89AA07EBC9}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C51EC6C2-3098-4199-B117-DB89AA07EBC9}.Debug|x86.Build.0 = Debug|Any CPU
+		{C51EC6C2-3098-4199-B117-DB89AA07EBC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C51EC6C2-3098-4199-B117-DB89AA07EBC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C51EC6C2-3098-4199-B117-DB89AA07EBC9}.Release|x64.ActiveCfg = Release|Any CPU
+		{C51EC6C2-3098-4199-B117-DB89AA07EBC9}.Release|x64.Build.0 = Release|Any CPU
+		{C51EC6C2-3098-4199-B117-DB89AA07EBC9}.Release|x86.ActiveCfg = Release|Any CPU
+		{C51EC6C2-3098-4199-B117-DB89AA07EBC9}.Release|x86.Build.0 = Release|Any CPU
+		{15E5AB02-2F1A-4724-A4FB-C28438B01F04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15E5AB02-2F1A-4724-A4FB-C28438B01F04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15E5AB02-2F1A-4724-A4FB-C28438B01F04}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{15E5AB02-2F1A-4724-A4FB-C28438B01F04}.Debug|x64.Build.0 = Debug|Any CPU
+		{15E5AB02-2F1A-4724-A4FB-C28438B01F04}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{15E5AB02-2F1A-4724-A4FB-C28438B01F04}.Debug|x86.Build.0 = Debug|Any CPU
+		{15E5AB02-2F1A-4724-A4FB-C28438B01F04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15E5AB02-2F1A-4724-A4FB-C28438B01F04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15E5AB02-2F1A-4724-A4FB-C28438B01F04}.Release|x64.ActiveCfg = Release|Any CPU
+		{15E5AB02-2F1A-4724-A4FB-C28438B01F04}.Release|x64.Build.0 = Release|Any CPU
+		{15E5AB02-2F1A-4724-A4FB-C28438B01F04}.Release|x86.ActiveCfg = Release|Any CPU
+		{15E5AB02-2F1A-4724-A4FB-C28438B01F04}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

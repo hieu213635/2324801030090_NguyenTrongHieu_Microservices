@@ -1,8 +1,7 @@
-﻿using Blazored.SessionStorage;
+using Blazored.SessionStorage;
 using Blazorise.Bootstrap5;
 using Blazorise.Icons.FontAwesome;
 using BlazorWasmClient.Components.Auth;
-using BlazorWasmClient.Components.Dashboard;
 using BlazorWasmClient.Components.PolicySearch;
 using BlazorWasmClient.Components.Products;
 using Microsoft.AspNetCore.Components.Authorization;
@@ -29,7 +28,6 @@ namespace BlazorWasmClient
             builder.Services.AddScoped<ProductsClient>();
             builder.Services.AddScoped<PolicyClient>();
             builder.Services.AddScoped<AuthClient>();
-            builder.Services.AddScoped<DashboardClient>();
             
             await builder.Build().RunAsync();
         }
